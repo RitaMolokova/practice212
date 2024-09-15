@@ -3,64 +3,6 @@
 
 int main()
 {
-
-        /*srand(time(0));*/
-        //int size1;
-        //cout << "Enter size1 -> ";
-        //cin >> size1;
-        //int* ptr1 = new int[size1];
-
-        //// инициализация массива
-        //for (int i = 0; i < size1; i++)
-        //{
-        //    ptr1[i] = rand() % 40;// [0 - 39]  
-        //}
-        //// вывод массива
-        //for (int i = 0; i < size1; i++)
-        //{
-        //    cout << ptr1[i] << "\t";
-        //}
-        //cout << endl;
-
-        //// количество нечетных элементов
-
-        //int size2 = 0;
-        //for (int i = 0; i < size1; i++)
-        //{
-        //    if (ptr1[i] % 2 != 0)
-        //    {
-        //        size2++;
-        //    }
-        //}
-        //int* ptr2 = nullptr;
-        //if (size2 > 0)
-        //{
-        //    ptr2 = new int[size2];
-        //}
-
-        //// копирование с проверкой 
-
-        //for (int i = 0, j = 0; i < size1; i++)
-        //{
-        //    if (ptr1[i] % 2 != 0)
-        //    {
-        //        ptr2[j] = ptr1[i];
-        //        j++;
-        //    }
-        //}
-        //delete[] ptr1;// удаляем первый массив
-
-        //// вывод второго массива.
-        //cout << "\nSize2 = " << size2 << endl;
-        //for (int i = 0; i < size2; i++)
-        //{
-        //    cout << ptr2[i] << "\t";
-        //}
-        //cout << endl;
-
-        //delete[] ptr2;
-
-        //1
         srand(time(0));
         int size;
         cout << "Enter size: ";
@@ -71,7 +13,6 @@ int main()
             cout << ptr[i] << "\t";
         }
         cout << endl;
-        //2 positive
         int size2 = 0, size3 = 0, size4=0;
         for (int i = 0; i < size; i++){
             if (ptr[i] > 0)
